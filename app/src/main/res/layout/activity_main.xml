@@ -11,7 +11,18 @@
     tools:context="com.example.fujitaken.chinpanapp.MainActivity">
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginEnd="-130dp"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onAdd"
+        android:text="Button" />
+
 </RelativeLayout>
